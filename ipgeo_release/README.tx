@@ -1,0 +1,67 @@
+=======================================
+   IPGeo - IP Geolocation Tool
+   Made by Brazil (M-society)
+   Join: https://discord.gg/EwbQpceWG8
+=======================================
+
+📦 Description:
+---------------
+IPGeo is a simple yet powerful command-line tool that allows you to geolocate IP addresses.
+It's perfect for network analysis, debugging, educational purposes, or cybersecurity awareness.
+
+⚙️ Requirements:
+----------------
+- Linux (any distribution)
+- No external dependencies required
+- Statically compiled binary
+
+🛠️ Installation:
+-----------------
+1. Extract the archive:
+   $ unzip ipgeo_release.zip
+   or
+   $ tar -xvzf ipgeo_release.tar.gz
+
+2. Move into the folder:
+   $ cd ipgeo_release
+
+3. Make the installer executable:
+   $ chmod +x install.sh
+
+4. Run the installer:
+   $ ./install.sh
+
+⚠️ If `~/.local/bin` is not in your PATH, add it by placing this line in your ~/.bashrc or ~/.zshrc:
+   export PATH="$HOME/.local/bin:$PATH"
+
+🚀 Usage:
+---------
+After installation, simply run:
+
+   $ ipgeo
+
+Follow the interactive menu to:
+[1] Geolocate your current IP  
+[2] Geolocate a custom IP  
+[3] Exit  
+
+📍 Output includes:
+-------------------
+- IP Address
+- Country, Region, City
+- ISP
+- GPS Coordinates (Latitude & Longitude)
+
+🛡️ Security:
+-------------
+- No runtime dependencies required
+- No root privileges needed
+- Internal logging (if enabled in source)
+
+📩 Contact:
+-----------
+Author: Brazil (M-society)    
+GitHub: cortana110
+
+Enjoy :^
+
